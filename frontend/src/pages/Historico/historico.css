@@ -1,0 +1,90 @@
+* {
+    font-family: 'Comfortaa', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .global-hist {
+    min-height: 10vh;
+    width: 100%;
+  }
+
+  .header-hist {
+    width: 100%;
+    height: 8vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    cursor: pointer;
+    background-color: rgb(236, 245, 251);
+  }
+
+  .dash-global {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .list-dashboard-hist {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .container-empresas-hist {
+    display: flex;
+    justify-content: center;
+    width: 25vw;
+    font-size: 16px;
+    background-color: rgb(236, 245, 251);
+}
+
+
+  .list-empresas-hist li{
+    padding: 15px;
+    display: flex;
+}
+
+  .list-empresas-hist ul{
+    display: flex;
+    margin: 15px;
+    color: rgb(84, 84, 84);
+    cursor: pointer;
+}
+
+  .list-historico-hist {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .dashboard-hist {
+    height: 8vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+  .list-empregados-hist li {
+    margin-top: 2vh;
+    margin: 2vh;
+    list-style-type: none;
+    align-items: center;
+  }
+
+  .list-empregados-hist ul {
+    margin-top: 1vh;
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .list-empregados-hist {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
